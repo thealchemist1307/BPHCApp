@@ -27,16 +27,16 @@
         android:paddingTop="@dimen/nav_header_vertical_spacing"
         android:text="@string/username"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:textColor="@color/colorBlack"
+        android:textColor="#FFFFFF"
         android:textSize="20sp"
         android:textStyle="bold" />
 
     <TextView
         android:id="@+id/emailid"
-        android:textSize="15sp"
-        android:textColor="@color/colorBlack"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/emailid" />
+        android:text="@string/emailid"
+        android:textColor="#FFFFFF"
+        android:textSize="13sp" />
 
 </LinearLayout>

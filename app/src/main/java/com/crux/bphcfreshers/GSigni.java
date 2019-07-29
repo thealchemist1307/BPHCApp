@@ -3,7 +3,9 @@ package com.crux.bphcfreshers;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -35,6 +37,9 @@ public class GSigni extends AppCompatActivity implements View.OnClickListener{
     FirebaseAuth mAuth;
     FirebaseAuth.AuthStateListener mAuthListner;
     private final static int RC_SIGN_IN = 101;
+
+    String user;
+    String email;
     GoogleSignInClient mGoogleSignInClient;
 
     @Override
@@ -86,15 +91,15 @@ public class GSigni extends AppCompatActivity implements View.OnClickListener{
                 if (googleSignInResult.isSuccess()) {
                     // Signed in successfully.
                     GoogleSignInAccount acct = googleSignInResult.getSignInAccount();
-                    String user = account.getDisplayName();
-                    String email = acct.getEmail();
+                    user = account.getDisplayName();
+                    email = acct.getEmail();
+
+
                     String[] split = email.split("@");
                     String domain = split[1]; //This Will Give You The Domain After '@'
                     if(domain.equals("hyderabad.bits-pilani.ac.in"))
                     {
                         firebaseAuthWithGoogle(account);
-                        MainActivity.username = user;
-                        MainActivity.emailid = email;
                     }
                     else
                     {

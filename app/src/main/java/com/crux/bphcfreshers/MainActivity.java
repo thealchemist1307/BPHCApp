@@ -36,12 +36,12 @@ public class MainActivity<var> extends AppCompatActivity
 
     implements NavigationView.OnNavigationItemSelectedListener{
 
-    public static String username;
-    public static String emailid;
+    public static String username = "";
+    public static String emailid = "";
     NavigationView navigationView;
     View headerView;
-    TextView user;
-    TextView email;
+    public TextView user_text;
+    public TextView email_text;
 
 
     private FirebaseAuth mAuth;
@@ -91,14 +91,6 @@ public class MainActivity<var> extends AppCompatActivity
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        navigationView = (NavigationView) findViewById(R.id.nav_view);
-        headerView = navigationView.getHeaderView(0);
-
-        user = (TextView) headerView.findViewById(R.id.username);
-        email = (TextView) headerView.findViewById(R.id.emailid);
-        user.setText(username);
-        email.setText(emailid);
-
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         NavigationView navigationView = findViewById(R.id.nav_view);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -113,19 +105,17 @@ public class MainActivity<var> extends AppCompatActivity
         fragmentTransaction.commit();
         mAuth = FirebaseAuth.getInstance();
         FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
-        String name="Profile Name" ;
-        String email="f20xxxxxx@bits-pilani.hyderabadcampus.ac.in" ;
-        Uri photoUrl;
         if (user != null) {
-             name = user.getDisplayName();
-            email = user.getEmail();
-            photoUrl = user.getPhotoUrl();
+            username = user.getDisplayName();
+            emailid = user.getEmail();
 
-            boolean emailVerified = user.isEmailVerified();
-            String uid = user.getUid();
+            navigationView = findViewById(R.id.nav_view);
+            headerView = navigationView.getHeaderView(0);
 
-
-         // TextView uname= findViewById(R.id.username);
+            user_text = headerView.findViewById(R.id.username);
+            email_text = headerView.findViewById(R.id.emailid);
+            user_text.setText(username);
+            email_text.setText(emailid);
 
         }
 
