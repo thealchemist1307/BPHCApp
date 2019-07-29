@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".clubdep"
+    android:background="@drawable/clubbdepp">
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="82dp"
+        android:layout_marginEnd="2dp"
+        android:background="@drawable/buttonbg"
+        android:fontFamily="@font/alfa_slab_one"
+        android:text="  This is Club and Dep.There are many clubs and deps to choose from."
+        android:textAlignment="center"
+        android:textColor="#030303"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="87dp" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="-15dp"
+        android:textAlignment="center">
+
+        <Button
+            android:id="@+id/Bdep"
+            android:layout_width="313dp"
+            android:layout_height="76dp"
+            android:layout_marginTop="64dp"
+            android:layout_marginBottom="105dp"
+            android:background="@drawable/buttonbg"
+            android:text="Check out our Departments"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Bclub" />
+
+        <Button
+            android:id="@+id/Bclub"
+            android:layout_width="311dp"
+            android:layout_height="82dp"
+            android:layout_marginTop="423dp"
+            android:layout_marginBottom="64dp"
+            android:background="@drawable/buttonbg"
+            android:text="Check out our Clubs"
+            app:layout_constraintBottom_toTopOf="@+id/Bdep"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</RelativeLayout>

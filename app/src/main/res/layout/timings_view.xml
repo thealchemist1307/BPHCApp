@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ListView
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:id="@+id/timingsList"
+        tools:ignore="AdapterViewChildren">
+
+        <TextView
+            android:id="@+id/timings_1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:background="@drawable/textview_border"
+            android:text="@string/timing1" />
+        <TextView
+            android:id="@+id/timings_2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:background="@drawable/textview_border"
+            android:text="@string/timing2" />
+        <TextView
+            android:id="@+id/timings_3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:background="@drawable/textview_border"
+            android:text="@string/timing3" />
+        <TextView
+            android:id="@+id/timings_4"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:background="@drawable/textview_border"
+            android:text="@string/timing4" />
+        <TextView
+            android:id="@+id/timings_5"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:background="@drawable/textview_border"
+            android:text="@string/timing5" />
+        <TextView
+            android:id="@+id/timings_6"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:background="@drawable/textview_border"
+            android:text="@string/timing6" />
+        <TextView
+            android:id="@+id/timings_7"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:background="@drawable/textview_border"
+            android:text="@string/timing7" />
+        <TextView
+            android:id="@+id/timings_8"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:background="@drawable/textview_border"
+            android:text="@string/timing8" />
+        <TextView
+            android:id="@+id/timings_9"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:background="@drawable/textview_border"
+            android:text="@string/timing9" />
+
+    </ListView>
+
+</RelativeLayout>

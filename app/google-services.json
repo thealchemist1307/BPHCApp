@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1009477445837",
+    "firebase_url": "https://bphc-custom-map-1563153224459.firebaseio.com",
+    "project_id": "bphc-custom-map-1563153224459",
+    "storage_bucket": "bphc-custom-map-1563153224459.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1009477445837:android:2040ff7c82ba921c",
+        "android_client_info": {
+          "package_name": "com.crux.bphcfreshers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1009477445837-642s0qu7pc6l3fdcercia50eqvobn03t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.crux.bphcfreshers",
+            "certificate_hash": "f33f03ce0babd323dc793af488e4732e067c108e"
+          }
+        },
+        {
+          "client_id": "1009477445837-pj86c4t1dss29fedgbdgh1ph7v73u92j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNuCjqnG6LHatVkANPnJiCFdf_5qmXEiU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1009477445837-pj86c4t1dss29fedgbdgh1ph7v73u92j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
