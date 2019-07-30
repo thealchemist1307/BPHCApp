@@ -56,6 +56,8 @@ public class Gsignout extends AppCompatActivity {
             @Override
             public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
                 if (firebaseAuth.getCurrentUser() == null) {
+                    Toast.makeText(Gsignout.this, "Sign Out Successful", Toast.LENGTH_SHORT).show();
+
                     startActivity(new Intent(Gsignout.this, MainActivity.class));
                 }
             }

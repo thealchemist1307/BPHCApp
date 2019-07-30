@@ -20,8 +20,10 @@ import androidx.appcompat.app.ActionBarDrawerToggle;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.bumptech.glide.Glide;
 import com.google.android.material.navigation.NavigationView;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -38,11 +40,12 @@ public class MainActivity<var> extends AppCompatActivity
 
     public static String username = "";
     public static String emailid = "";
+    public static Uri pphoto;
     NavigationView navigationView;
     View headerView;
     public TextView user_text;
     public TextView email_text;
-
+public ImageView profile_pic;
 
     private FirebaseAuth mAuth;
     private FirebaseUser currentUser;
@@ -108,14 +111,16 @@ public class MainActivity<var> extends AppCompatActivity
         if (user != null) {
             username = user.getDisplayName();
             emailid = user.getEmail();
-
+            pphoto=user.getPhotoUrl();
             navigationView = findViewById(R.id.nav_view);
             headerView = navigationView.getHeaderView(0);
 
             user_text = headerView.findViewById(R.id.username);
             email_text = headerView.findViewById(R.id.emailid);
+            profile_pic=headerView.findViewById(R.id.profilepic);
             user_text.setText(username);
             email_text.setText(emailid);
+            Glide.with(this).load(pphoto).into(profile_pic);
 
         }
 
@@ -152,7 +157,8 @@ public class MainActivity<var> extends AppCompatActivity
         } else if (id == R.id.accInfo) {
             URLopener("http://swd.bits-hyderabad.ac.in/");
         } else if (id == R.id.timeTable) {
-            fragment = new TimeTableFragment();
+            Intent intent = new Intent(MainActivity.this, timetableView.class);
+            startActivity(intent);
         } else if (id == R.id.erp) {
             URLopener("https://erp.bits-pilani.ac.in:4431/psp/hcsprod/?cmd=login&languageCd=ENG");
         }

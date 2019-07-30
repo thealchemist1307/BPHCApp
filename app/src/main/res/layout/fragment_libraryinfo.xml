@@ -148,7 +148,7 @@
             android:layout_marginBottom="8dp"
             android:background="@drawable/buttonbg"
             android:gravity="center"
-            android:text="@string/timing_breakfast"
+            android:text="9:00am-11:00pm"
             android:textColor="#000000"
             android:textSize="16sp"
             android:textStyle="bold" />
@@ -164,7 +164,7 @@
             android:layout_marginBottom="8dp"
             android:background="@drawable/buttonbg"
             android:gravity="center"
-            android:text="@string/timing_dinner"
+            android:text="9:00am-9:00pm"
             android:textColor="#000000"
             android:textSize="16sp"
             android:textStyle="bold" />
@@ -179,7 +179,7 @@
             android:layout_marginBottom="8dp"
             android:background="@drawable/buttonbg"
             android:gravity="center"
-            android:text="@string/timing_lunch"
+            android:text="10:00am-6:00pm"
             android:textColor="#000000"
             android:textSize="16sp"
             android:textStyle="bold" />
@@ -194,7 +194,7 @@
             android:layout_marginBottom="8dp"
             android:background="@drawable/buttonbg"
             android:gravity="center"
-            android:text="@string/timing_snacks"
+            android:text="9:00am-1:00am "
             android:textColor="#000000"
             android:textSize="16sp"
             android:textStyle="bold" />

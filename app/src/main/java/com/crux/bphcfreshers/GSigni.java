@@ -60,6 +60,7 @@ public class GSigni extends AppCompatActivity implements View.OnClickListener{
             public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
                 if (firebaseAuth.getCurrentUser() != null) {
                     startActivity(new Intent(GSigni.this, MainActivity.class));
+                    Toast.makeText(GSigni.this, "Sign In Successful", Toast.LENGTH_SHORT).show();
                 }
             }
         };

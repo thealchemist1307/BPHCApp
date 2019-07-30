@@ -21,7 +21,13 @@
                 android:id="@+id/switch1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Turn On Notification for Classes" />
+                android:fontFamily="@font/alfa_slab_one"
+                android:text="Turn On Notification for Classes"
+                android:textSize="20sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="24dp" />
 
             <ScrollView
                 android:layout_width="match_parent"

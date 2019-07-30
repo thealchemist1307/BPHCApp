@@ -309,57 +309,41 @@ public class timetableView extends AppCompatActivity {
                     }
                 });
             }
-        }
 
-        boolean value = false;
-        final SharedPreferences sharedPreferences = getSharedPreferences("isChecked", 0);
-        value = sharedPreferences.getBoolean("isChecked", value); // retrieve the value of your key
-        final Random rand =new Random();
-
-        Switch switch1=findViewById(R.id.switch1);
-        switch1.setChecked(value);
-        switch1.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-            @Override
-            public void onCheckedChanged (CompoundButton compoundButton,boolean isChecked){
-                if (isChecked) {
-                    sharedPreferences.edit().putBoolean("isChecked", true).apply();
-//                        {int random=rand.nextInt();
-//                            for (int i = 0; i < 6; i++) {
-//
-//
-//                                for (int j = 0; j < 9; j++) {
-//
-//                                    TimeSet(i, 5 + j, 3 * i + 2 * j+random);
-//
-//
-//                                }
-//                            }
-//
-//                        }
-
-                    Cursor c = timeTableDB.rawQuery("SELECT * FROM timetabledata", null);
+            SharedPreferences sharedPreferences;
+            Switch switch1 = findViewById(R.id.switch1);
+            final Random rand = new Random();
+            sharedPreferences = getSharedPreferences("timetableView", MODE_PRIVATE);
+            final SharedPreferences.Editor preferences = sharedPreferences.edit();
+            switch1.setChecked(sharedPreferences.getBoolean("isChecked", false));
+            switch1.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+                @Override
+                public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                    if (isChecked) {
+                        preferences.putBoolean("isChecked", true);
+                        Cursor c = timeTableDB.rawQuery("SELECT * FROM timetabledata", null);
 //                        int courseIndex = c.getColumnIndex("course");
 //                        int classroomIndex = c.getColumnIndex("classroom");
-                    int dayIndex = c.getColumnIndex("day");
-                    int hourIndex = c.getColumnIndex("hour");
+                        int dayIndex = c.getColumnIndex("day");
+                        int hourIndex = c.getColumnIndex("hour");
 
-                    if (c.moveToFirst()) {
-                        do {
-                            int random=rand.nextInt();
-                            int day = c.getInt(dayIndex);
-                            int hour = c.getInt(hourIndex);
-                            TimeSet((day+2)%7, 7+hour, random);
-                        } while (c.moveToNext());
+                        if (c.moveToFirst()) {
+                            do {
+                                int random = rand.nextInt();
+                                int day = c.getInt(dayIndex);
+                                int hour = c.getInt(hourIndex);
+                                TimeSet((day + 2) % 7, 7 + hour, random);
+                            } while (c.moveToNext());
+                        }
+                        c.close();
+
+                    } else {
+                        preferences.putBoolean("isChecked", false);
                     }
-                    c.close();
-
-                }else {
-                    sharedPreferences.edit().putBoolean("isChecked", false).apply();
-
+                    preferences.commit();
                 }
-            }
-        });
-    }
+            });
+
 
 //    @Override
 //    protected void onStop() {
@@ -399,6 +383,8 @@ public class timetableView extends AppCompatActivity {
 //        }
 //    }
 
+        }
+    }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.

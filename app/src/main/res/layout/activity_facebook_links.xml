@@ -24,7 +24,7 @@
 
             <TextView
                 android:id="@+id/textView4"
-                android:layout_width="302dp"
+                android:layout_width="327dp"
                 android:layout_height="wrap_content"
 
                 android:layout_marginTop="85dp"
