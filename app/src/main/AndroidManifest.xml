@@ -2,7 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.crux.bphcfreshers">
-
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
          Google Maps Android API v2, but you must specify either coarse or fine
@@ -21,7 +20,6 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -36,11 +34,7 @@
 
         <activity
             android:name=".BPHCMap"
-            android:label="@string/title_activity_bphcmap"></activity>
-        <activity
-            android:name=".crux"
-            android:label="@string/title_activity_crux"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:label="@string/title_activity_bphcmap" />
         <activity android:name=".FacebookLinks" />
         <activity android:name=".Gsignout" />
         <activity android:name=".GSigni" />
@@ -49,7 +43,6 @@
             android:name="com.facebook.sdk.ApplicationId"
             android:value="@string/app_id"
             tools:replace="android:value" />
-
 
         <activity android:name=".Deps" />
         <activity android:name=".Clubs" />

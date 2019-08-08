@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/clubbg">
+
+    <ScrollView
+        android:layout_width="376dp"
+        android:layout_height="559dp"
+        tools:layout_editor_absoluteX="35dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="11dp" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="296dp"
+                android:layout_height="218dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="-1dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="1dp"
+                android:baselineAligned="false"
+                android:cropToPadding="true"
+                android:padding="@dimen/activity_horizontal_margin"
+                app:srcCompat="@drawable/shadeslogo" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="299dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/aldrich"
+                android:text="  Welcome to Shades"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="30sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="310dp"
+                android:layout_height="wrap_content"
+                android:text="The fine arts club of BITS Hyderabad, Shades is a gathering and celebration of creative people. A perfect platform to showcase your artistic capabilities and learn a lot more. The club organizes workshops on various art and craft forms. Some of our standout performances include the repainting of the Shades wall and the stage shows, live artworks during fest inaugurations. We also organize an annual exhibition during Pearl, BPHC cultural fest where artworks and various handcrafts of our artists are displayed."
+                android:textColor="#000000"
+                android:textIsSelectable="true"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="13dp" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="   Contact Info:"
+                android:textColor="#000000"
+                android:textSize="30sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView28"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="   Head: "
+                    android:textColor="#000000"
+                    android:textIsSelectable="true"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/textView25"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="   mail:"
+                    android:textColor="#000000"
+                    android:textIsSelectable="true"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/textView24"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="   Whatsapp:  "
+                    android:textColor="#000000"
+                    android:textIsSelectable="true"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="   Mobile:   "
+                    android:textColor="#000000"
+                    android:textIsSelectable="true"
+                    android:textSize="17sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

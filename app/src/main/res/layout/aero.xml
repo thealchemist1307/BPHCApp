@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/clubbg">
+
+    <ScrollView
+        android:layout_width="376dp"
+        android:layout_height="559dp"
+        tools:layout_editor_absoluteX="35dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="11dp" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="296dp"
+                android:layout_height="218dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="-1dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="1dp"
+                android:cropToPadding="true"
+                android:padding="@dimen/activity_horizontal_margin"
+                app:srcCompat="@drawable/aerologo" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/aldrich"
+                android:text="  Welcome to CRUX"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="30sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="310dp"
+                android:layout_height="wrap_content"
+                android:text="Crux is the programming and computing club of BPHC. It’s a go to place for anyone in campus regardless of their branch to come and showcase their love for coding. Crux organises workshops, events, coding contests and summer class throughout the year to improve the coding culture of the campus. A high level of discipline is expected from the members and as a result, the club ends up with a significant amount of highly skilled people in their respective fields. The club strives to improve everyday and learn new things constantly. Being part of Crux is not gonna be an easy ride, but it’s a rewarding experience. Are you interested in competitive coding, web development, app development, game development or machine learning? This is the club for you! This list doesn’t cover your field of interest? The club is always looking to expand it’s horizons and learn something new from what you can bring to the club."
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textIsSelectable="true"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="13dp" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="   Contact Info:"
+                android:textColor="#000000"
+                android:textSize="30sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView28"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="   Head: Yohan MR "
+                    android:textColor="#000000"
+                    android:textIsSelectable="true"
+                    android:textSize="17sp" />
+
+
+
+                <TextView
+                    android:id="@+id/textView24"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="   Whatsapp: 9640553127 "
+                    android:textColor="#000000"
+                    android:textIsSelectable="true"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="   Mobile: 9640553127  "
+                    android:textColor="#000000"
+                    android:textIsSelectable="true"
+                    android:textSize="17sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

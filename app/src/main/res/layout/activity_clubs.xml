@@ -22,6 +22,16 @@
             android:orientation="vertical"
             android:textAlignment="center">
 
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/alfa_slab_one"
+                android:text="Technical Clubs"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp" />
+
             <Space
                 android:layout_width="match_parent"
                 android:layout_height="26dp" />
@@ -43,6 +53,265 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/buttonbg"
                 android:text="ARC" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="26dp" />
+
+            <Button
+                android:id="@+id/bmun"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:background="@drawable/buttonbg"
+                android:text="BITSMUN" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="26dp" />
+
+            <Button
+                android:id="@+id/bembryo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonbg"
+                android:text="BITS Embryo" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="26dp" />
+
+            <Button
+                android:id="@+id/Bcrux"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonbg"
+                android:text="CruX" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="26dp" />
+
+            <Button
+                android:id="@+id/becell"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonbg"
+                android:text="E-CELL	" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="26dp" />
+
+            <Button
+                android:id="@+id/bted"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonbg"
+                android:text="TEDx" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="26dp" />
+
+            <Button
+                android:id="@+id/bvfx"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonbg"
+                android:text="VFx Club" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="26dp" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/alfa_slab_one"
+                android:text="Clubs"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="26dp" />
+
+            <Button
+                android:id="@+id/bda"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonbg"
+                android:text="Designers Anonymous" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="26dp" />
+
+            <Button
+                android:id="@+id/bdc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonbg"
+                android:text="Dance Club" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="26dp" />
+
+            <Button
+                android:id="@+id/bdrama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonbg"
+                android:text="Dramatics Club	" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="26dp" />
+
+            <Button
+                android:id="@+id/bcooking"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonbg"
+                android:text="Cooking Club	" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="26dp" />
+
+            <Button
+                android:id="@+id/Belas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonbg"
+                android:text="ELAS" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="26dp" />
+
+            <Button
+                android:id="@+id/button29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonbg"
+                android:text="Grandh" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="26dp" />
+
+            <Button
+                android:id="@+id/bhindi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonbg"
+                android:text="Hindi Tarang	" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="26dp" />
+
+            <Button
+                android:id="@+id/bjournal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonbg"
+                android:text="Journal Club" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="26dp" />
+
+            <Button
+                android:id="@+id/bmovie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonbg"
+                android:text="Movie Club" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="26dp" />
+
+            <Button
+                android:id="@+id/bmc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonbg"
+                android:text="Music Club	" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="26dp" />
+
+            <Button
+                android:id="@+id/button37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonbg"
+                android:text="NSS	" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="26dp" />
+
+            <Button
+                android:id="@+id/bphotog"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonbg"
+                android:text="Photog Club" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="26dp" />
+
+            <Button
+                android:id="@+id/bshades"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonbg"
+                android:text="Shades Club	" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="26dp" />
+
+            <Button
+                android:id="@+id/bquiz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonbg"
+                android:text="Quiz Club" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="26dp" />
+
+            <Button
+                android:id="@+id/bsafl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonbg"
+                android:text="Sanskrit and Foreign Languages" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="26dp" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/alfa_slab_one"
+                android:text="Sports Clubs"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp" />
 
             <Space
                 android:layout_width="match_parent"
@@ -82,28 +351,6 @@
                 android:layout_height="26dp" />
 
             <Button
-                android:id="@+id/button11"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/buttonbg"
-                android:text="BITS Embryo" />
-
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="26dp" />
-
-            <Button
-                android:id="@+id/button12"
-                android:layout_width="match_parent"
-                android:layout_height="65dp"
-                android:background="@drawable/buttonbg"
-                android:text="BITSMUN" />
-
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="26dp" />
-
-            <Button
                 android:id="@+id/button15"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -137,61 +384,6 @@
                 android:layout_height="26dp" />
 
             <Button
-                android:id="@+id/button18"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/buttonbg"
-                android:text="Cooking Club	" />
-
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="26dp" />
-
-            <Button
-                android:id="@+id/Bcrux"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/buttonbg"
-                android:text="CruX" />
-
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="26dp" />
-
-            <Button
-                android:id="@+id/button20"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/buttonbg"
-                android:text="Dance Club" />
-
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="26dp" />
-
-            <Button
-                android:id="@+id/button21"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/buttonbg"
-                android:text="Designers Anonymous" />
-
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="26dp" />
-
-            <Button
-                android:id="@+id/button24"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/buttonbg"
-                android:text="Dramatics Club	" />
-
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="26dp" />
-
-            <Button
                 android:id="@+id/button25"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -203,55 +395,11 @@
                 android:layout_height="26dp" />
 
             <Button
-                android:id="@+id/button26"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/buttonbg"
-                android:text="E-CELL	" />
-
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="26dp" />
-
-            <Button
-                android:id="@+id/button27"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/buttonbg"
-                android:text="ELAS" />
-
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="26dp" />
-
-            <Button
                 android:id="@+id/button28"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/buttonbg"
                 android:text="Football" />
-
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="26dp" />
-
-            <Button
-                android:id="@+id/button29"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/buttonbg"
-                android:text="Grandh" />
-
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="26dp" />
-
-            <Button
-                android:id="@+id/button30"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/buttonbg"
-                android:text="Hindi Tarang	" />
 
             <Space
                 android:layout_width="match_parent"
@@ -302,88 +450,11 @@
                 android:layout_height="26dp" />
 
             <Button
-                android:id="@+id/button35"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/buttonbg"
-                android:text="Movie Club" />
-
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="26dp" />
-
-            <Button
-                android:id="@+id/button36"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/buttonbg"
-                android:text="Music Club	" />
-
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="26dp" />
-
-            <Button
-                android:id="@+id/button37"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/buttonbg"
-                android:text="NSS	" />
-
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="26dp" />
-
-            <Button
-                android:id="@+id/button38"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/buttonbg"
-                android:text="Photog Club" />
-
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="26dp" />
-
-            <Button
                 android:id="@+id/button39"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/buttonbg"
                 android:text="Powerlifting" />
-
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="26dp" />
-
-            <Button
-                android:id="@+id/button40"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/buttonbg"
-                android:text="Quiz Club" />
-
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="26dp" />
-
-            <Button
-                android:id="@+id/button23"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/buttonbg"
-                android:text="Sanskrit and Foreign Languages" />
-
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="26dp" />
-
-            <Button
-                android:id="@+id/button41"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/buttonbg"
-                android:text="Shades Club	" />
 
             <Space
                 android:layout_width="match_parent"
@@ -461,17 +532,6 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/buttonbg"
                 android:text="Ultimate Frisbee" />
-
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="26dp" />
-
-            <Button
-                android:id="@+id/button49"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/buttonbg"
-                android:text="VFx Club" />
 
             <Space
                 android:layout_width="match_parent"

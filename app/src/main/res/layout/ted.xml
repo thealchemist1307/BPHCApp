@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/clubbg">
+
+    <ScrollView
+        android:layout_width="376dp"
+        android:layout_height="559dp"
+        tools:layout_editor_absoluteX="35dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="11dp" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="296dp"
+                android:layout_height="218dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="-1dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="1dp"
+                android:cropToPadding="true"
+                android:padding="@dimen/activity_horizontal_margin"
+                app:srcCompat="@drawable/tedxlogo" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="299dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/aldrich"
+                android:text="  Welcome to TEDx"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="30sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="310dp"
+                android:layout_height="wrap_content"
+                android:text="TEDxBITSHyderabad is an event organized independently by the students of BITS Pilani, Hyderabad Campus that strives to recreate the unique experience found at a TED event. Our goal is to provide a platform for bright, inquisitive minds to come, listen and interact in an environment brimming with inspiration and wonder. The fourth edition of TEDxBITSHyderabad will be organized on 12th November 2017, with the theme “Connecting the Dots”."   android:textColor="#000000"
+                android:textIsSelectable="true"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="13dp" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="   Contact Info:"
+                android:textColor="#000000"
+                android:textSize="30sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView28"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="   Head: "
+                    android:textColor="#000000"
+                    android:textIsSelectable="true"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/textView25"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="   mail:"
+                    android:textColor="#000000"
+                    android:textIsSelectable="true"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/textView24"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="   Whatsapp:  "
+                    android:textColor="#000000"
+                    android:textIsSelectable="true"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="   Mobile:   "
+                    android:textColor="#000000"
+                    android:textIsSelectable="true"
+                    android:textSize="17sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

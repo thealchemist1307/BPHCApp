@@ -151,8 +151,14 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="buy_sell_bphc"><![CDATA[Buy&Sell@BPHC]]></string>
     <string name="title_activity_bphcmaps">Map</string>
-    <string name="title_activity_crux">crux</string>
+    <string name="cruxhead">Head: Samkit Jain
+mail: crux@hyderabad.bits-pilani.ac.in
+Whatsapp: 9705601217
+Mobile: 9705601217</string>
     <string name="tab_text_1">Tab 1</string>
     <string name="tab_text_2">Tab 2</string>
+    <string name="title_activity_elas">elas</string>
+    <string name="cookingdetail"><![CDATA[Are you a foodie? Do you love to cook? Do you love gathering with friends over a great meal! It\'s a great way to deepen your friendships while enjoying terrific food. This is the place for all food lovers. We emerged as a club from cooking & culinary activities society after a stint of successful endeavours. We arrange talks, workshops from renowned chefs and entrepreneurs of the cooking field. Also, playing an appreciable role in arranging stalls during fests and special occasions.]]></string>
+
 
 </resources>
