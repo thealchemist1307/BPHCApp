@@ -31,19 +31,19 @@ public class Clubs extends AppCompatActivity {
             }
 
         });
-        Button Belas=findViewById(R.id.Belas);
-        Belas.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                AlertDialog.Builder mbuilder = new AlertDialog.Builder(Clubs.this);
-                View mview=getLayoutInflater().inflate(R.layout.elas,null);
-                mbuilder.setView(mview);
-                AlertDialog dialog=mbuilder.create();
-                dialog.show();
-
-            }
-
-        });
+//        Button Belas=findViewById(R.id.Belas);
+//        Belas.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                AlertDialog.Builder mbuilder = new AlertDialog.Builder(Clubs.this);
+//                View mview=getLayoutInflater().inflate(R.layout.elas,null);
+//                mbuilder.setView(mview);
+//                AlertDialog dialog=mbuilder.create();
+//                dialog.show();
+//
+//            }
+//
+//        });
         Button bcooking=findViewById(R.id.bcooking);
         bcooking.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -200,19 +200,19 @@ public class Clubs extends AppCompatActivity {
             }
 
         });
-        Button bembryo=findViewById(R.id.bembryo);
-        bembryo.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                AlertDialog.Builder mbuilder = new AlertDialog.Builder(Clubs.this);
-                View mview=getLayoutInflater().inflate(R.layout.embryo,null);
-                mbuilder.setView(mview);
-                AlertDialog dialog=mbuilder.create();
-                dialog.show();
-
-            }
-
-        });
+//        Button bembryo=findViewById(R.id.bembryo);
+//        bembryo.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                AlertDialog.Builder mbuilder = new AlertDialog.Builder(Clubs.this);
+//                View mview=getLayoutInflater().inflate(R.layout.embryo,null);
+//                mbuilder.setView(mview);
+//                AlertDialog dialog=mbuilder.create();
+//                dialog.show();
+//
+//            }
+//
+//        });
         Button bmun=findViewById(R.id.bmun);
         bmun.setOnClickListener(new View.OnClickListener() {
             @Override

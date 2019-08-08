@@ -100,6 +100,7 @@ public class timetableView extends AppCompatActivity {
         buttonsArray.get(0).add((Button) findViewById(R.id.ttv_addButton1_7));
         buttonsArray.get(0).add((Button) findViewById(R.id.ttv_addButton1_8));
         buttonsArray.get(0).add((Button) findViewById(R.id.ttv_addButton1_9));
+        buttonsArray.get(0).add((Button) findViewById(R.id.ttv_addButton1_10));
 
 
         buttonsArray.add(new ArrayList<Button>(9));
@@ -112,6 +113,7 @@ public class timetableView extends AppCompatActivity {
         buttonsArray.get(1).add((Button) findViewById(R.id.ttv_addButton2_7));
         buttonsArray.get(1).add((Button) findViewById(R.id.ttv_addButton2_8));
         buttonsArray.get(1).add((Button) findViewById(R.id.ttv_addButton2_9));
+        buttonsArray.get(1).add((Button) findViewById(R.id.ttv_addButton2_10));
 
 
         buttonsArray.add(new ArrayList<Button>(9));
@@ -124,6 +126,7 @@ public class timetableView extends AppCompatActivity {
         buttonsArray.get(2).add((Button) findViewById(R.id.ttv_addButton3_7));
         buttonsArray.get(2).add((Button) findViewById(R.id.ttv_addButton3_8));
         buttonsArray.get(2).add((Button) findViewById(R.id.ttv_addButton3_9));
+        buttonsArray.get(2).add((Button) findViewById(R.id.ttv_addButton3_10));
 
 
         buttonsArray.add(new ArrayList<Button>(9));
@@ -136,6 +139,7 @@ public class timetableView extends AppCompatActivity {
         buttonsArray.get(3).add((Button) findViewById(R.id.ttv_addButton4_7));
         buttonsArray.get(3).add((Button) findViewById(R.id.ttv_addButton4_8));
         buttonsArray.get(3).add((Button) findViewById(R.id.ttv_addButton4_9));
+        buttonsArray.get(3).add((Button) findViewById(R.id.ttv_addButton4_10));
 
 
         buttonsArray.add(new ArrayList<Button>(9));
@@ -148,6 +152,7 @@ public class timetableView extends AppCompatActivity {
         buttonsArray.get(4).add((Button) findViewById(R.id.ttv_addButton5_7));
         buttonsArray.get(4).add((Button) findViewById(R.id.ttv_addButton5_8));
         buttonsArray.get(4).add((Button) findViewById(R.id.ttv_addButton5_9));
+        buttonsArray.get(4).add((Button) findViewById(R.id.ttv_addButton5_10));
 
 
         buttonsArray.add(new ArrayList<Button>(9));
@@ -160,6 +165,7 @@ public class timetableView extends AppCompatActivity {
         buttonsArray.get(5).add((Button) findViewById(R.id.ttv_addButton6_7));
         buttonsArray.get(5).add((Button) findViewById(R.id.ttv_addButton6_8));
         buttonsArray.get(5).add((Button) findViewById(R.id.ttv_addButton6_9));
+        buttonsArray.get(5).add((Button) findViewById(R.id.ttv_addButton6_10));
 
     }
 
@@ -265,7 +271,7 @@ public class timetableView extends AppCompatActivity {
 
         for (int i = 0; i < 6; i++) {
 
-            for (int j = 0; j < 9; j++) {
+            for (int j = 0; j < 10; j++) {
 
                 Log.i("Main Loop Works", "Working");
 
@@ -413,7 +419,7 @@ public class timetableView extends AppCompatActivity {
                 }
 
                 for (int i=0; i<6; i++) {
-                    for (int j=0; j<9; j++) {
+                    for (int j=0; j<10; j++) {
                         Button resetButton = buttonsArray.get(i).get(j);
                         resetButton.animate().alpha(0.1f).setDuration(10);
                         resetButton.setText("ADD");

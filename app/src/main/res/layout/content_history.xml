@@ -33,7 +33,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
 
-                android:fontFamily="@font/aldrich"
+                android:fontFamily="@font/adamina"
                 android:text="Birla Institute of Technology and Science, Pilani  - Hyderabad campus is one of the premier technical and science institutes of higher learning in India. It was established by Birla Institute of Technology and Science, Pilani (Rajasthan) as one of its latest campuses in the year 2008 with the first batch graduating in the year 2012. BITS, Pilani is one of India’s top technical and science universities  established under Sec. 3 of the UGC act.  "
                 android:textColor="#000000"
                 android:textSize="17sp" />
@@ -46,7 +46,7 @@
                 android:id="@+id/textView8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/aldrich"
+                android:fontFamily="@font/adamina"
                 android:text="The sprawling campus is built amidst lush greenery spreading over 200 acres of land at Jawahar Nagar, Shameerpet, Hyderabad. Surrounded by natural beauty, the campus is about 70 kilometers away from Rajiv Gandhi International Airport, Shamshabad and 27 kilometers from Secunderabad railway station. The campus is easily accessible by road with a bus stop just outside the campus. Public transport (route# 212) runs every one hour from Secunderabad to the campus. The campus is in close proximity to many schools, medical facilities, and recreational centers."
                 android:textColor="#000000"
                 android:textSize="17sp" />
@@ -59,7 +59,7 @@
                 android:id="@+id/textView9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/aldrich"
+                android:fontFamily="@font/adamina"
                 android:text="The campus is built with state-of-the-art infrastructure without affecting the scenic beauty of the area. Modern laboratories, well-furnished classrooms, lecture theatre complexes, student activity center, auditorium, playground and modern ICT infrastructure, all come together to make BITS Pilani, Hyderabad campus a well-equipped campus"
                 android:textColor="#000000"
                 android:textSize="17sp" />
@@ -72,7 +72,7 @@
                 android:id="@+id/textView10"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/aldrich"
+                android:fontFamily="@font/adamina"
                 android:text="Around 750 bright minds are admitted every year into first degree, higher degree and doctoral programmes of the institute through a single entrance test conducted by BITS, Pilani. Being a campus of BITS, Pilani, Hyderabad campus follows the same curriculum, teaching methodologies and educational practices of its’ parent campus. BITS, Pilani, Hyderabad campus is fully residential, housing over 3200 students, around 170 faculty members and 160 technical and support staff. The teaching faculty brings with them extensive research, teaching and industry experience to offer comprehensive education to students. Currently around 65 research projects are ongoing in the campus, most of which are supported by prominent funding agencies from India and abroad. "
                 android:textColor="#000000"
                 android:textSize="17sp" />
@@ -85,7 +85,7 @@
                 android:id="@+id/textView15"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/aldrich"
+                android:fontFamily="@font/adamina"
                 android:text="Campus life is vibrant and stimulating. Student calendars are filled with a healthy mix of extracurricular activities through various clubs and departments. There is a culture of freedom coupled with a holistic environment for multidimensional growth of a student personality. Over the past few years, students have been placed at multinational companies, government organizations, and research institutes across the globe. The students of the campus are truly ready to become the innovators of tomorrow.  "
                 android:textColor="#000000"
                 android:textSize="17sp" />

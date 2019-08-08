@@ -243,7 +243,7 @@ public class MessInfoFragment extends Fragment {
 
         Toast.makeText(getContext(), command, Toast.LENGTH_SHORT).show();
 //        if (command == "today" || command == "today's") {
-        if (command.equals("breakfast")) {
+        if (command.indexOf("breakfast") != -1) {
             if (c.moveToFirst()) {
                 do{
                     if (c.getInt(dayIndex) == (curr_day)) {
@@ -252,7 +252,7 @@ public class MessInfoFragment extends Fragment {
                 } while (c.moveToNext());
             }
             c.close();
-        } else if (command.equals("lunch")) {
+        } else if (command.indexOf("lunch") != -1) {
             if (c.moveToFirst()) {
                 do{
                     if (c.getInt(dayIndex) == (curr_day)) {
@@ -261,7 +261,7 @@ public class MessInfoFragment extends Fragment {
                 } while (c.moveToNext());
             }
             c.close();
-        } else if (command.equals("snacks")) {
+        } else if (command.indexOf("snacks") != -1) {
             if (c.moveToFirst()) {
                 do{
                     if (c.getInt(dayIndex) == (curr_day)) {
@@ -270,7 +270,7 @@ public class MessInfoFragment extends Fragment {
                 } while (c.moveToNext());
             }
             c.close();
-        } else if (command.equals("dinner")) {
+        } else if (command.indexOf("dinner") != -1) {
             if (c.moveToFirst()) {
                 do{
                     if (c.getInt(dayIndex) == (curr_day)) {

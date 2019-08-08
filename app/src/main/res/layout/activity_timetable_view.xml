@@ -21,7 +21,7 @@
                 android:id="@+id/switch1"
                 android:layout_width="406dp"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/alfa_slab_one"
+                android:fontFamily="@font/adamina"
                 android:text="Turn On notification for Classes"
                 android:textSize="20sp" />
 
@@ -41,7 +41,7 @@
                     <GridLayout
                         android:id="@+id/timetableDaysList"
                         android:layout_width="406dp"
-                        android:layout_height="600dp"
+                        android:layout_height="655dp"
                         android:layout_marginLeft="5dp"
                         android:layout_marginTop="5dp"
                         android:layout_marginRight="5dp"
@@ -156,6 +156,16 @@
                                 android:textSize="18sp"
                                 android:textStyle="bold" />
 
+                            <TextView
+                                android:id="@+id/timings_10"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:layout_marginTop="10dp"
+                                android:gravity="center"
+                                android:text="@string/timing10"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
                         </LinearLayout>
 
                         <LinearLayout
@@ -249,6 +259,15 @@
 
                             <Button
                                 android:id="@+id/ttv_addButton1-9"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:layout_marginTop="10dp"
+                                android:alpha="0.1"
+                                android:background="@drawable/button_border"
+                                android:text="ADD" />
+
+                            <Button
+                                android:id="@+id/ttv_addButton1-10"
                                 android:layout_width="match_parent"
                                 android:layout_height="50dp"
                                 android:layout_marginTop="10dp"
@@ -356,6 +375,15 @@
                                 android:background="@drawable/button_border"
                                 android:text="ADD" />
 
+                            <Button
+                                android:id="@+id/ttv_addButton2-10"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:layout_marginTop="10dp"
+                                android:alpha="0.1"
+                                android:background="@drawable/button_border"
+                                android:text="ADD" />
+
                         </LinearLayout>
 
                         <LinearLayout
@@ -449,6 +477,15 @@
 
                             <Button
                                 android:id="@+id/ttv_addButton3-9"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:layout_marginTop="10dp"
+                                android:alpha="0.1"
+                                android:background="@drawable/button_border"
+                                android:text="ADD" />
+
+                            <Button
+                                android:id="@+id/ttv_addButton3-10"
                                 android:layout_width="match_parent"
                                 android:layout_height="50dp"
                                 android:layout_marginTop="10dp"
@@ -556,6 +593,15 @@
                                 android:background="@drawable/button_border"
                                 android:text="ADD" />
 
+                            <Button
+                                android:id="@+id/ttv_addButton4-10"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:layout_marginTop="10dp"
+                                android:alpha="0.1"
+                                android:background="@drawable/button_border"
+                                android:text="ADD" />
+
                         </LinearLayout>
 
                         <LinearLayout
@@ -656,6 +702,15 @@
                                 android:background="@drawable/button_border"
                                 android:text="ADD" />
 
+                            <Button
+                                android:id="@+id/ttv_addButton5-10"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:layout_marginTop="10dp"
+                                android:alpha="0.1"
+                                android:background="@drawable/button_border"
+                                android:text="ADD" />
+
                         </LinearLayout>
 
                         <LinearLayout
@@ -749,6 +804,15 @@
 
                             <Button
                                 android:id="@+id/ttv_addButton6-9"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:layout_marginTop="10dp"
+                                android:alpha="0.1"
+                                android:background="@drawable/button_border"
+                                android:text="ADD" />
+
+                            <Button
+                                android:id="@+id/ttv_addButton6-10"
                                 android:layout_width="match_parent"
                                 android:layout_height="50dp"
                                 android:layout_marginTop="10dp"
