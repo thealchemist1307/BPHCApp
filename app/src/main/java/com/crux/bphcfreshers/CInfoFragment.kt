@@ -5,7 +5,10 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.view.animation.AnimationUtils
 import android.widget.Button
+import android.widget.ImageView
+import android.widget.TextView
 import androidx.fragment.app.Fragment
 
 class CInfoFragment : Fragment(), View.OnClickListener {
@@ -19,6 +22,19 @@ class CInfoFragment : Fragment(), View.OnClickListener {
         val Bhistory = view.findViewById<Button>(R.id.button5)
         val Bc_d = view.findViewById<Button>(R.id.button6)
         val Bnearby = view.findViewById<Button>(R.id.button7)
+        val Blogo=view.findViewById<ImageView>(R.id.blogo);
+        val cinftxt=view.findViewById<TextView>(R.id.textView3);
+        val logoanim= AnimationUtils.loadAnimation(context,R.anim.logoanim);
+        val bttnanim=AnimationUtils.loadAnimation(context,R.anim.bttnanim);
+        Blogo.startAnimation(logoanim);
+        cinftxt.startAnimation(logoanim);
+        Bhistory.startAnimation(bttnanim);
+        Bc_d.startAnimation(bttnanim);
+        Bnearby.startAnimation(bttnanim);
+
+        Bhistory.setOnClickListener(this)
+        Bc_d.setOnClickListener(this)
+        Bnearby.setOnClickListener(this)
         Bhistory.setOnClickListener(this)
         Bc_d.setOnClickListener(this)
         Bnearby.setOnClickListener(this)
